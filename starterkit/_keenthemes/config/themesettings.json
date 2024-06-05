@@ -6,7 +6,7 @@
   "modeDefault": "light",
   "assetsDir": "/assets/",
   "iconType": "duotone",
-  "defaultLayout": "default-dark-sidebar",
+  "defaultLayout": "default-light-sidebar",
   "assets": {
     "favicon": "media/logos/favicon.ico",
     "fonts": [

@@ -36,7 +36,7 @@ public class DashboardController {
         return theme.getPageView("dashboards", "index");
     }
     
-    @GetMapping("/contact")
+    @GetMapping("/packages")
     public String contact(Model model){
         String[] vendors = {"amcharts", "amcharts-maps", "amcharts-stock"};
         model.addAttribute("title","Contact");
