@@ -9,7 +9,7 @@ public class KTThemeSettings {
 
     public KTThemeSettings() {
         ObjectMapper objectMapper = new ObjectMapper();
-        File file = new File("_keenthemes/config/themesettings.json");
+        File file = new File("_keenthemes/config/themeSettings.json");
         try {
             config = objectMapper.readValue(file, KTThemeBaseConfig.class);
         } catch (Exception e) {

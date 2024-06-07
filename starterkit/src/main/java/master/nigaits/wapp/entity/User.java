@@ -88,6 +88,9 @@ public class User implements Serializable {
     @Temporal(TemporalType.TIMESTAMP)
     private Date emailVerificationCodeExpiry;
 
+    @Column(name = "role_id")
+    private String roleId;
+
     public int getId() {
         return id;
     }
@@ -254,5 +257,13 @@ public class User implements Serializable {
 
     public void setEmailVerificationCodeExpiry(Date emailVerificationCodeExpiry) {
         this.emailVerificationCodeExpiry = emailVerificationCodeExpiry;
+    }
+
+    public String getRoleId() {
+        return roleId;
+    }
+
+    public void setRoleId(String roleId) {
+        this.roleId = roleId;
     }
 }
